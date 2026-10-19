@@ -236,8 +236,8 @@
   },
   {
     "path": "dist/assets/media/levelle-sneakerball.mp4",
-    "sha256": "8d704a64de00a986eb2689a6e20b4ff73dc5519069336165ff93b05ba7b3955d",
-    "bytes": 34445450
+    "sha256": "6727a87d993d2ad49a2ffd05c0586abe9eedc1972720a7b32155149f03408cfb",
+    "bytes": 14967027
   },
   {
     "path": "dist/assets/media/levelle-sneakerball.webp",
@@ -306,8 +306,8 @@
   },
   {
     "path": "dist/assets/media/rocket-boy-watchway.mp4",
-    "sha256": "820773578e1523e1713d1c37aa434ce51ead34989a79d85bf7148fdf82bb7578",
-    "bytes": 48666574
+    "sha256": "654d9546c98e81ea817c27d178143b60986a5ed3cf88202e336b12635e480b71",
+    "bytes": 18019607
   },
   {
     "path": "dist/assets/media/rocket-boy-watchway.webp",
@@ -326,8 +326,8 @@
   },
   {
     "path": "dist/assets/media/roy-environment.mp4",
-    "sha256": "1c7bcbb0c70f6b280582dcda6d302e76bd3f2636a8cd5ad6267f9a30a7b2e36d",
-    "bytes": 37581547
+    "sha256": "f0b863c99d14f5d1e874bcbbdbb16e8b24a762dc156cf55664d1780d37e3d8a5",
+    "bytes": 15989068
   },
   {
     "path": "dist/assets/media/roy-environment.webp",
@@ -336,8 +336,8 @@
   },
   {
     "path": "dist/assets/media/velle-bernie-mac.mp4",
-    "sha256": "1c60450596d9d3f4a4763670b857e6ceb67c03695d61a7f720162dc6212f29db",
-    "bytes": 27486957
+    "sha256": "d7f142ecf59e41292033bc7d733be66303f3261310e930c7fdc8198c351a93e7",
+    "bytes": 12139990
   },
   {
     "path": "dist/assets/media/velle-bernie-mac.webp",

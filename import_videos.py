@@ -28,13 +28,16 @@ def run(item):
     duration = 60 * m + s
     if not target.exists() or target.stat().st_size < 10000:
         temp = DEST / f'{slug}.encoding.mp4'
+        compact = slug in {'levelle-sneakerball', 'rocket-boy-watchway',
+                           'roy-environment', 'velle-bernie-mac'}
         subprocess.run([
             'ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', str(master),
             '-map', '0:v:0', '-map', '0:a:0?',
-            '-vf', 'scale=w=1280:h=-2:force_original_aspect_ratio=decrease:flags=lanczos,scale=trunc(iw/2)*2:trunc(ih/2)*2',
-            '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '30',
-            '-maxrate', '1200k', '-bufsize', '2400k', '-pix_fmt', 'yuv420p',
-            '-threads', '2', '-c:a', 'aac', '-b:a', '72k',
+            '-vf', f'scale=w={854 if compact else 1280}:h=-2:force_original_aspect_ratio=decrease:flags=lanczos,scale=trunc(iw/2)*2:trunc(ih/2)*2',
+            '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '32' if compact else '30',
+            '-maxrate', '390k' if compact else '1200k',
+            '-bufsize', '780k' if compact else '2400k', '-pix_fmt', 'yuv420p',
+            '-threads', '2', '-c:a', 'aac', '-b:a', '48k' if compact else '72k',
             '-movflags', '+faststart', str(temp)], check=True)
         temp.replace(target)
     if not poster.exists():
