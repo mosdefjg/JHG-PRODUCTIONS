@@ -55,29 +55,14 @@
     "bytes": 82024
   },
   {
-    "path": "dist/assets/media/campaign-11.mp4",
-    "sha256": "713bb205d75a4673469f165fda2f011d7b0aabe4c784aa64d18f3b23826dc68f",
-    "bytes": 13958806
-  },
-  {
     "path": "dist/assets/media/campaign-11.webp",
     "sha256": "69cfb84c0f8d18e10a949109c1adea2f8e6a095bd95845018de3698e091f4f00",
     "bytes": 52562
   },
   {
-    "path": "dist/assets/media/campaign-25.mp4",
-    "sha256": "bbf0e5835220accc9737351684c1d5ae6a3414253ee650cac959016de420f541",
-    "bytes": 23107186
-  },
-  {
     "path": "dist/assets/media/campaign-25.webp",
     "sha256": "8a2b1d955e2fa85f78307b51935cb0496381db98c17530306a1afb5225773047",
     "bytes": 18098
-  },
-  {
-    "path": "dist/assets/media/campaign-34.mp4",
-    "sha256": "6e875d99e77bf7103bf1f3d4e18e964537df2ccb8c3e56f8bb83bc7c507d14ea",
-    "bytes": 19722232
   },
   {
     "path": "dist/assets/media/campaign-34.webp",
@@ -175,19 +160,9 @@
     "bytes": 28342
   },
   {
-    "path": "dist/assets/media/creativeverse-fatima-burke.mp4",
-    "sha256": "29323b9efbd61a202f5bd902575a58145c1313b37959e5d15444796855cb4e36",
-    "bytes": 23221802
-  },
-  {
     "path": "dist/assets/media/creativeverse-fatima-burke.webp",
     "sha256": "ad76641e36c208e3ceaa215d17edacc16a14a40e6c641b6cf30ec870af3eb789",
     "bytes": 54650
-  },
-  {
-    "path": "dist/assets/media/creativeverse-larry-pickett.mp4",
-    "sha256": "203275f218b1b803b0ab9b2f68cc5d9665fb5777c6107bdcb9580d8fad3a712f",
-    "bytes": 17778131
   },
   {
     "path": "dist/assets/media/creativeverse-larry-pickett.webp",
@@ -203,11 +178,6 @@
     "path": "dist/assets/media/creativeverse-spoken-word.webp",
     "sha256": "3bfee3194ce64ecc99291973ddd73e68fecacf27f6208d7d30aff4fd1daa9ca2",
     "bytes": 55226
-  },
-  {
-    "path": "dist/assets/media/creativeverse-valonda-calloway.mp4",
-    "sha256": "4f9a21a7581b77a2c62fda639173d5d40bc9cf79aa1ca1217bc80318cf104f05",
-    "bytes": 21493607
   },
   {
     "path": "dist/assets/media/creativeverse-valonda-calloway.webp",
@@ -233,11 +203,6 @@
     "path": "dist/assets/media/kimberly-brand-intro.webp",
     "sha256": "3429235129c0ccec39a0b857f2a058410e98b40e1fae1ecd19cfce30860ec49b",
     "bytes": 10750
-  },
-  {
-    "path": "dist/assets/media/levelle-sneakerball.mp4",
-    "sha256": "6727a87d993d2ad49a2ffd05c0586abe9eedc1972720a7b32155149f03408cfb",
-    "bytes": 14967027
   },
   {
     "path": "dist/assets/media/levelle-sneakerball.webp",
@@ -285,11 +250,6 @@
     "bytes": 75714
   },
   {
-    "path": "dist/assets/media/rocket-boy-bike-manual.mp4",
-    "sha256": "5ee2a5b960211c69806049213e351a3fa1085cccca6e2c36a4294d1bdc16f6b8",
-    "bytes": 14838990
-  },
-  {
     "path": "dist/assets/media/rocket-boy-bike-manual.webp",
     "sha256": "aa727834bfdce8dc05347e645fe4cac11a5f67715c152d4f04bb3039c0b9ba7a",
     "bytes": 69154
@@ -303,11 +263,6 @@
     "path": "dist/assets/media/rocket-boy-watch-manual.webp",
     "sha256": "2d0e24930ff30f83c94c95bede873733596ba1f6573e3517e22d744cec21ecca",
     "bytes": 36984
-  },
-  {
-    "path": "dist/assets/media/rocket-boy-watchway.mp4",
-    "sha256": "654d9546c98e81ea817c27d178143b60986a5ed3cf88202e336b12635e480b71",
-    "bytes": 18019607
   },
   {
     "path": "dist/assets/media/rocket-boy-watchway.webp",
@@ -325,11 +280,6 @@
     "bytes": 43394
   },
   {
-    "path": "dist/assets/media/roy-environment.mp4",
-    "sha256": "f0b863c99d14f5d1e874bcbbdbb16e8b24a762dc156cf55664d1780d37e3d8a5",
-    "bytes": 15989068
-  },
-  {
     "path": "dist/assets/media/roy-environment.webp",
     "sha256": "15764aaea291fd20748ee7a8e8e0f6d45e2199c857cd88a1a420a99fdc67dbdd",
     "bytes": 54830
@@ -345,23 +295,85 @@
     "bytes": 31014
   },
   {
-    "path": "dist/assets/media/velle-holly-1.mp4",
-    "sha256": "b3fafc62c399f2810bd0e5563765708bf3d85cabbaaa9f4cfd740029d00a35ee",
-    "bytes": 18667553
-  },
-  {
     "path": "dist/assets/media/velle-holly-1.webp",
     "sha256": "46391c597f33d15017dfc0e3ab1cc5a8a4056f37bfa2394504cd7bcc84a33f08",
     "bytes": 40912
   },
   {
-    "path": "dist/assets/media/velle-holly-2.mp4",
-    "sha256": "5776e3da95bc002d37d528da8774b3b75c48a7c80dc820094069e94b00b64c49",
-    "bytes": 22712288
-  },
-  {
     "path": "dist/assets/media/velle-holly-2.webp",
     "sha256": "6badd406aac1ef8b2935a1b42ca9545c7be9250c876223a842171e40f98260bf",
     "bytes": 54850
+  },
+  {
+    "path": "dist/assets/media/creativeverse-fatima-burke.mp4",
+    "sha256": "29323b9efbd61a202f5bd902575a58145c1313b37959e5d15444796855cb4e36",
+    "bytes": 23221802,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/campaign-25.mp4",
+    "sha256": "bbf0e5835220accc9737351684c1d5ae6a3414253ee650cac959016de420f541",
+    "bytes": 23107186,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/velle-holly-2.mp4",
+    "sha256": "5776e3da95bc002d37d528da8774b3b75c48a7c80dc820094069e94b00b64c49",
+    "bytes": 22712288,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/creativeverse-valonda-calloway.mp4",
+    "sha256": "4f9a21a7581b77a2c62fda639173d5d40bc9cf79aa1ca1217bc80318cf104f05",
+    "bytes": 21493607,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/campaign-34.mp4",
+    "sha256": "6e875d99e77bf7103bf1f3d4e18e964537df2ccb8c3e56f8bb83bc7c507d14ea",
+    "bytes": 19722232,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/velle-holly-1.mp4",
+    "sha256": "b3fafc62c399f2810bd0e5563765708bf3d85cabbaaa9f4cfd740029d00a35ee",
+    "bytes": 18667553,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-watchway.mp4",
+    "sha256": "654d9546c98e81ea817c27d178143b60986a5ed3cf88202e336b12635e480b71",
+    "bytes": 18019607,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/creativeverse-larry-pickett.mp4",
+    "sha256": "203275f218b1b803b0ab9b2f68cc5d9665fb5777c6107bdcb9580d8fad3a712f",
+    "bytes": 17778131,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/roy-environment.mp4",
+    "sha256": "f0b863c99d14f5d1e874bcbbdbb16e8b24a762dc156cf55664d1780d37e3d8a5",
+    "bytes": 15989068,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/levelle-sneakerball.mp4",
+    "sha256": "6727a87d993d2ad49a2ffd05c0586abe9eedc1972720a7b32155149f03408cfb",
+    "bytes": 14967027,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-bike-manual.mp4",
+    "sha256": "5ee2a5b960211c69806049213e351a3fa1085cccca6e2c36a4294d1bdc16f6b8",
+    "bytes": 14838990,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/campaign-11.mp4",
+    "sha256": "713bb205d75a4673469f165fda2f011d7b0aabe4c784aa64d18f3b23826dc68f",
+    "bytes": 13958806,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
   }
 ]

@@ -11,7 +11,7 @@ A cinematic, responsive eight-page portfolio for John H. Guess. The public Sites
 
 ## Uploaded films
 
-The 32 distinct supplied masters are mapped to Campaigns, Work, AI & Animation, and 3D Rendering. A duplicate Raleigh Firebirds home-dates export is omitted from the catalog. The original masters stay outside this repo. To regenerate full-length, seekable browser MP4s and WebP posters:
+The 32 distinct supplied masters are mapped to Campaigns, Work, AI & Animation, and 3D Rendering. A duplicate Raleigh Firebirds home-dates export is omitted from the catalog. The original masters stay outside this repo. Twelve larger MP4s are served from the companion public JHG media Site; `media-hosted.json` names them and `remote-media-assets.json` pins their checksums. They still play within the portfolio's native player. The main preview stays below its static archive limit. To regenerate full-length, seekable browser MP4s and WebP posters:
 
 ```sh
 python3 import_videos.py /absolute/path/to/masters
@@ -21,6 +21,8 @@ python3 validate_site.py
 ```
 
 Publish the generated `dist/assets/media/` with the site. If a Git hosting provider limits binary repository size, host these exact web MP4s on durable static storage and point `local-media.json` to their URL; keep playback in the site's native player and verify seeking. Do not use an expiring Wix stream URL.
+
+For the two-Site preview, move the twelve files listed in `media-hosted.json` from the regenerated main `dist/assets/media/` to the companion media Site before packaging either Site. `fetch_hosted_assets.py` restores both sets into a single `dist/` for the GitHub Pages build. The GitHub artifact is therefore self-contained at deployment time even though large videos are not committed to Git history.
 
 The title film uses ten seconds of existing footage followed by five-second excerpts from the supplied campaign films. Additional source-listed campaign films can be added when their masters arrive. The following three uploads were lost during transfer and need to be attached again: `12-WHISKY-STICKS-POLITICS-SHOUT-OUT-PROMO.webm`, `14-JHG-A.i.-Productions-Presents_-VELLE-S-TALES-THE-MICHAEL-JORDAN-STORY.webm`, and `15-Velle-s-Tales_The-Michael-Jackson-Story-Presented-By-Jhg-A.i.-Animated-Studios.webm`.
 

@@ -28,6 +28,9 @@ if __name__ == '__main__':
                  and (p.stat().st_size > 500_000 or '/media/' in str(p)))
         data = [{'path': str(p.relative_to(ROOT)), 'sha256': checksum(p), 'bytes': p.stat().st_size}
                 for p in sorted(files)]
+        remote = ROOT / 'remote-media-assets.json'
+        if remote.exists():
+            data += json.loads(remote.read_text())
         MANIFEST.write_text(json.dumps(data, indent=2) + '\n')
         print(f'Pinned {len(data)} large assets for repository deployment.')
         sys.exit(0)
@@ -42,7 +45,7 @@ if __name__ == '__main__':
             continue
         target.parent.mkdir(parents=True, exist_ok=True)
         temporary = target.with_name(target.name + '.download')
-        url = ORIGIN + '/' + str(relative.relative_to('dist'))
+        url = asset.get('origin', ORIGIN) + '/' + str(relative.relative_to('dist'))
         urllib.request.urlretrieve(url, temporary)
         if checksum(temporary) != asset['sha256']:
             temporary.unlink()

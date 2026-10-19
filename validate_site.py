@@ -31,6 +31,10 @@ projects=json.loads((ROOT/'projects.json').read_text());assert len({p['slug'] fo
 for p in projects:
  assert (ROOT/p['image'].lstrip('/')).exists(),p['image']
  if p.get('video'):
-  video=ROOT/p['video'].lstrip('/')
-  assert video.exists() and video.stat().st_size>10000,(p['slug'],p['video'])
+  uri=urlsplit(p['video'])
+  if uri.scheme:
+   assert uri.scheme=='https' and uri.netloc=='jhg-productions-media.john-h-guess.chatgpt.site' and uri.path.startswith('/assets/media/'),(p['slug'],p['video'])
+  else:
+   video=ROOT/p['video'].lstrip('/')
+   assert video.exists() and video.stat().st_size>10000,(p['slug'],p['video'])
 print(f'{len(projects)} project records, images and {sum(bool(p.get("video")) for p in projects)} local players OK')
