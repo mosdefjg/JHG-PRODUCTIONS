@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "ai-creations",
+    "title": "JHG A.i. Creations",
+    "category": "AI & animation",
+    "description": "AI-assisted visuals for promotional and imaginative projects.",
+    "image": "/assets/ai-showcase-1.webp",
+    "duration": "01:56",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "rocket-boy",
+    "title": "Rocket Boy Roy",
+    "category": "AI & animation",
+    "description": "Character development and an age-progression promo for Rocket Boy Roy.",
+    "image": "/assets/ai-showcase-2.webp",
+    "duration": "03:03",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "karma",
+    "title": "Karma: The Crucible of Eva Savage",
+    "category": "AI & animation",
+    "description": "An illustrated action promo for the story by Dr. Larry D. Monk Sr.",
+    "image": "/assets/ai-showcase-3.webp",
+    "duration": "02:06",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "animated-studios",
+    "title": "JHG Animated Studios",
+    "category": "AI & animation",
+    "description": "An introduction to JHG Animated Studios and its original creative worlds.",
+    "image": "/assets/ai-showcase-4.webp",
+    "duration": "04:48",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "choose-to-create",
+    "title": "Choose to Create",
+    "category": "AI & animation",
+    "description": "A showcase of AI-assisted storytelling and visual imagination.",
+    "image": "/assets/ai-showcase-5.webp",
+    "duration": "00:57",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "grammar-attack",
+    "title": "Grammar Attack — Noun Man",
+    "category": "AI & animation",
+    "description": "An animated character introduction for an educational concept.",
+    "image": "/assets/ai-showcase-6.webp",
+    "duration": "01:41",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "firebirds-ai-home-dates",
+    "title": "Raleigh Firebirds — 2025 Home Dates",
+    "category": "AI & animation",
+    "description": "A promotional film presenting the team’s 2025 home schedule.",
+    "image": "/assets/ai-showcase-7.webp",
+    "duration": "01:42",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "like-butta-baby",
+    "title": "Like Butta Baby",
+    "category": "AI & animation",
+    "description": "An original JHG Productions creative promo.",
+    "image": "/assets/ai-showcase-8.webp",
+    "duration": "01:01",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/ai",
+    "collection": "ai"
+  },
+  {
+    "slug": "real-time-spaces",
+    "title": "JHG 3D Renderings",
+    "category": "3D & immersive",
+    "description": "Architectural visualization and virtual environment work from JHG Productions.",
+    "image": "/assets/3d-showcase-1.webp",
+    "duration": "01:38",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/3d",
+    "collection": "3d"
+  },
+  {
+    "slug": "3d-render-2024",
+    "title": "3D Render — 2024",
+    "category": "3D & immersive",
+    "description": "A selection of JHG’s 2024 3D visualization work.",
+    "image": "/assets/3d-showcase-2.webp",
+    "duration": "01:23",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/3d",
+    "collection": "3d"
+  },
+  {
+    "slug": "lake-house",
+    "title": "The Lake House",
+    "category": "3D & immersive",
+    "description": "A lake house concept brought to life through architectural visualization.",
+    "image": "/assets/3d-showcase-3.webp",
+    "duration": "01:16",
+    "watch": "https://jhguess06.wixsite.com/mysite-1/3d",
+    "collection": "3d"
+  }
+]

@@ -1,0 +1,50 @@
+# Campaign footage needed
+
+Supply the original MP4 files (a ZIP is fine) for these videos to complete local playback and the requested 240-second campaign reel. Keep the existing titles in filenames where possible. Add original portfolio films for the remaining Work-page entries.
+
+- Whiskey Sticks & Politics — Whiskey Sticks & Politics
+- Whiskey Sticks & Politics — Whiskey Sticks & Politics
+- Whiskey Sticks & Politics — WHISKEY STICKS & POLITICS PODCAST COVER SCREEN
+- Riley Hill Baptist Church — Riley Hill Baptist Church Commercial
+- Riley Hill Baptist Church — Riley Hill Baptist Church   Who We Are Video(1)
+- Riley Hill Baptist Church — Pastor Fullwood Lifestyle Video
+- CreativeVerse Conference — CV24 Recap
+- CreativeVerse Conference — The CreativeVerse Mixer Interview Chris Do
+- CreativeVerse Conference — _CONVERSATION WITH CREATIVES_ PROMO
+- NCCU Men’s Basketball — NEW REHASH LONG JHG PROMO
+- NCCU Men’s Basketball — NCCU MEN'S BASKETBALL 2025 CONFERENCE PLAY TEAM OFFICIAL INTRO VIDEO
+- NCCU Men’s Basketball — NCCU MEN'S BASKETBALL TEAM DINNER 2024 OFFICIAL VIDEO
+- NCCU Men’s Basketball — NCCU FLIGHT NIGHT RECAP
+- NCCU Men’s Basketball — MIC'D UP FINAL DRAFT EP 01
+- Raleigh Firebirds — Raleigh Firebirds 2025 Season Home Dates (Offical Team Video)(1)
+- Raleigh Firebirds — Raleigh Firebirds Pre-Season Documentary Sneak Preview
+- Raleigh Firebirds — Mayor of Raleigh - Janet Cowell on The Raleigh Firebirds
+- Raleigh Firebirds — RALEIGH FIREBIRDS DOCUMENTARY GRAPHIC SCREEN_song2
+- Leo for Durham — Leonardo Williams - Mayor Of Durham
+- Leo for Durham — Leo Meet Greet Endorsed By Video
+- Leo for Durham — Leo Meet & Greet NCCU
+- Leo for Durham — LEO FOR DURHAM FILING DAY SHORT FILM
+- JHG A.i. — JHG A.i  Creations Long Commercial
+- JHG A.i. — Rocket Boy Roy Age Progression Promo
+- JHG A.i. — Karma The Crucible Of Eva Savage - Promo
+- JHG A.i. — JHG PRODUCTIONS ANIMATED STUDIOS
+- Get Serious — Ryan Ray - Get Serious
+- Get Serious — Get Serious Men's Brunch
+- Get Serious — Get Serious Promotion
+- Nu Vizion TV with Kimberly A. Guess — KIMBERLY A GUESS   BLACK HISTORY
+- Nu Vizion TV with Kimberly A. Guess — KIMBERLY A GUESS PRODUCTS & SHOWS INFOMERCIAL
+- Nu Vizion TV with Kimberly A. Guess — The Show Up Queen New Promo
+- The Bro Code Show — BRO CODE RALEIGH MEMORIAL
+- The Bro Code Show — B-ROOL 2022. DRAFT mp4
+- The Bro Code Show — 2022 RALEIGH YOUTH SUMMIT - THE BRO CODE SHOW MEDIA TEAM HIGHLIGHTS HD
+- Alpha Men Care Legacy Campaign — ALPHA MEN CARE
+- Alpha Men Care Legacy Campaign — ALPHA MEN CARE 1
+- Alpha Men Care Legacy Campaign — ALPHA MEN CARE PROMO 4
+- Alpha Men Care Legacy Campaign — MAURICE ALPHA
+- DG McGee — DG MCGEE COMMERCIAL
+- DG McGee — DG McGee PROMO
+- DG McGee — DG McGEE ENTERPRISES
+- DG McGee — DG BOOK SIGNING
+- Author Adia Dozier — Wifely Tea & Talk Promo Commercial
+- Author Adia Dozier — Called To Be A Wife Devotional- Short Infomercial
+- Author Adia Dozier — Called To Be A Wife Devotional- Adia Dozier Personal Interview

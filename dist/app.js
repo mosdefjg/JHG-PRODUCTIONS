@@ -1,0 +1,50 @@
+(() => {
+const root=document.documentElement, menu=document.querySelector('#navigation'), menuButton=document.querySelector('.menu-toggle');
+function closeMenu(){menu.classList.remove('is-open');menuButton.setAttribute('aria-expanded','false');menuButton.querySelector('span').textContent='＋';}
+menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')!=='true';menuButton.setAttribute('aria-expanded',String(open));menu.classList.toggle('is-open',open);menuButton.querySelector('span').textContent=open?'−':'＋';});
+document.addEventListener('click',e=>{if(!e.target.closest('.site-header'))closeMenu();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.classList.contains('is-open')){closeMenu();menuButton.focus();}});
+menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+matchMedia('(max-width: 1024px)').addEventListener('change',closeMenu);
+const preference=matchMedia('(prefers-reduced-motion: reduce)'),motionButton=document.querySelector('.motion-toggle'),hero=document.querySelector('#hero-video'),heroToggle=document.querySelector('#hero-toggle');
+let motionPaused=false,videoPaused=false,raf=false;
+try{motionPaused=localStorage.getItem('jhg-motion-paused')==='true';}catch{}
+const disabled=()=>motionPaused||preference.matches;
+function syncFilm(){if(!hero)return;heroToggle.textContent=hero.paused?'Play film ▷':'Pause film Ⅱ';heroToggle.setAttribute('aria-label',hero.paused?'Play background film':'Pause background film');}
+function syncMotion(){root.classList.toggle('motion-paused',disabled());motionButton.textContent=motionPaused?'Resume motion':'Pause motion';motionButton.setAttribute('aria-pressed',String(motionPaused));if(hero){if(disabled()||videoPaused)hero.pause();else hero.play().catch(()=>{});if(disabled())hero.style.transform='none';}syncFilm();}
+motionButton.addEventListener('click',()=>{motionPaused=!motionPaused;try{localStorage.setItem('jhg-motion-paused',String(motionPaused));}catch{}syncMotion();});
+preference.addEventListener('change',syncMotion);
+if(hero){
+ const smallScreen=matchMedia('(max-width: 1024px)');
+ function updateHeroTransform(){
+  if(disabled()||smallScreen.matches){hero.style.transform='none';return;}
+  hero.style.transform=`translateY(${Math.min(window.scrollY*.06,28)}px) scale(1.04)`;
+ }
+ hero.addEventListener('play',syncFilm);hero.addEventListener('pause',syncFilm);
+ heroToggle.addEventListener('click',()=>{if(hero.paused){videoPaused=false;hero.play().catch(()=>{});}else{videoPaused=true;hero.pause();}});
+ hero.addEventListener('error',()=>{heroToggle.hidden=true;});
+ smallScreen.addEventListener('change',updateHeroTransform);
+ window.addEventListener('scroll',()=>{if(raf||disabled())return;raf=true;requestAnimationFrame(()=>{updateHeroTransform();raf=false;});},{passive:true});
+ updateHeroTransform();
+}
+if('IntersectionObserver' in window){root.classList.add('js');const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{e.target.classList.toggle('visible',e.isIntersecting)});},{threshold:.05});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));}
+syncMotion();
+const dialog=document.querySelector('#project-dialog'),media=document.querySelector('#dialog-media'),title=document.querySelector('#dialog-title'),category=document.querySelector('#dialog-category'),description=document.querySelector('#dialog-description'),watch=document.querySelector('#dialog-watch'),note=document.querySelector('#dialog-note');
+let projectsPromise, lastFocus;
+const projects=()=>projectsPromise||(projectsPromise=fetch('/projects.json').then(r=>{if(!r.ok)throw Error('Could not load portfolio');return r.json();}));
+let resumeHeroAfterDialog=false;
+function openDialog(){resumeHeroAfterDialog=!!hero&&!hero.paused;hero?.pause();lastFocus=document.activeElement;dialog.showModal();document.body.classList.add('locked');}
+function clearDialog(){media.querySelector('video')?.pause();media.replaceChildren();if(resumeHeroAfterDialog&&!disabled()&&!videoPaused)hero?.play().catch(()=>{});document.body.classList.remove('locked');lastFocus?.focus();}
+dialog.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',clearDialog);dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+document.querySelectorAll('[data-project]').forEach(link=>link.addEventListener('click',async e=>{e.preventDefault();try{const p=(await projects()).find(p=>p.slug===link.dataset.project);if(!p)throw Error();title.textContent=p.title;category.textContent=`${p.group||p.category} / ${p.duration}`;description.textContent=p.description;watch.href=p.watch;if(p.video){const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='metadata';video.poster=p.image;video.setAttribute('aria-label',p.title);video.src=p.video;video.addEventListener('error',()=>{note.hidden=false;note.textContent='This film could not load. Please try again shortly.';});media.replaceChildren(video);watch.hidden=true;note.hidden=true;openDialog();video.play().catch(()=>{});}else{const img=new Image();img.src=p.image;img.alt=`Still from ${p.title}`;media.replaceChildren(img);watch.hidden=false;note.hidden=false;note.textContent='Watch this film in the original JHG collection.';openDialog();}}catch{location.href=link.href;}}));
+document.querySelectorAll('[data-reel]').forEach(button=>button.addEventListener('click',()=>{const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='metadata';video.src='/assets/jhg-introduction.mp4';video.poster='/assets/hero-poster.webp';media.replaceChildren(video);title.textContent='Your dreams. Our priority.';category.textContent='MEET JHG PRODUCTIONS / 02:09';description.textContent='Meet the person, process, and purpose behind JHG Productions.';watch.hidden=true;note.hidden=true;openDialog();video.play().catch(()=>{});}));
+const campaignSelect=document.querySelector('#campaign-select');
+if(campaignSelect){campaignSelect.addEventListener('change',async()=>{const all=await projects();let count=0;document.querySelectorAll('#campaign-grid .project-card').forEach(card=>{const record=all.find(p=>p.slug===card.querySelector('[data-project]').dataset.project);const show=campaignSelect.value==='all'||record?.group===campaignSelect.value;card.hidden=!show;if(show){count++;card.classList.add('visible');}});document.querySelector('#campaign-count').textContent=`${count} films${campaignSelect.value==='all'?' · '+(campaignSelect.options.length-1)+' collections':''}`;});}
+const movingImages=[...document.querySelectorAll('.founder-image img,.about-portrait img,.project-image img')];let imageTick=false;
+function moveImages(){imageTick=false;const small=innerWidth<=760;movingImages.forEach(img=>{if(disabled()){img.style.removeProperty('--image-offset');return;}const rect=img.parentElement.getBoundingClientRect();if(rect.bottom<0||rect.top>innerHeight)return;const progress=(rect.top+rect.height/2-innerHeight/2)/innerHeight;img.style.setProperty('--image-offset',`${Math.max(-1,Math.min(1,progress))*(small?8:14)}px`);});}
+window.addEventListener('scroll',()=>{if(!imageTick){imageTick=true;requestAnimationFrame(moveImages);}},{passive:true});window.addEventListener('resize',moveImages);preference.addEventListener('change',moveImages);motionButton.addEventListener('click',moveImages);moveImages();
+const filters=[...document.querySelectorAll('[data-filter]')],search=document.querySelector('#project-search'),cards=[...document.querySelectorAll('#portfolio-grid .project-card')];let selected='All work';
+function applyFilters(){const term=search.value.toLowerCase().trim();let count=0;cards.forEach(c=>{const match=(selected==='All work'||c.dataset.category===selected)&&c.dataset.search.includes(term);c.hidden=!match;if(match){count++;c.classList.add('visible');}});document.querySelector('#result-count').textContent=`${count} ${count===1?'project':'projects'}`;document.querySelector('#no-results').hidden=count!==0;filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===selected)));}
+filters.forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.filter;applyFilters();}));search?.addEventListener('input',applyFilters);document.querySelector('#reset-filters')?.addEventListener('click',()=>{selected='All work';search.value='';applyFilters();});
+const form=document.querySelector('#project-form');if(form){const requested=new URLSearchParams(location.search).get('service');const select=form.querySelector('#service');if([...select.options].some(o=>o.value===requested))select.value=requested;form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const f=new FormData(form);const subject=`JHG project inquiry: ${f.get('service')}`;const message=`Hello John,\n\n${f.get('idea')}\n\nPROJECT DETAILS\nService: ${f.get('service')}\nBudget range: ${f.get('budget')}\nTimeline: ${f.get('timeline')||'Flexible / to discuss'}\nLocation: ${f.get('location')||'To discuss'}\nReferences: ${f.get('references')||'None yet'}\n\nCONTACT\nName: ${f.get('name')}\nOrganization: ${f.get('organization')||'Not specified'}\nEmail: ${f.get('email')}\nPhone: ${f.get('phone')||'Not specified'}`;document.querySelector('#prepared-brief').value=`Subject: ${subject}\n\n${message}`;const result=document.querySelector('#brief-result');result.hidden=false;result.focus();window.location.href=`mailto:jhgphotography@jhgfilms.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;});document.querySelector('#copy-brief').addEventListener('click',async()=>{const text=document.querySelector('#prepared-brief');try{await navigator.clipboard.writeText(text.value);document.querySelector('#copy-status').textContent='Copied. Paste into your email and send it to JHG.';}catch{text.focus();text.select();document.querySelector('#copy-status').textContent='Select and copy the message above.';}});}
+})();

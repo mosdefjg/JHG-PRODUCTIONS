@@ -1,0 +1,379 @@
+[
+  {
+    "path": "dist/assets/jhg-campaign-montage.mp4",
+    "sha256": "5103588bdc93516eecce43aaa3878157eea5e6eb0cd78e3be778267302ed618f",
+    "bytes": 10045751
+  },
+  {
+    "path": "dist/assets/jhg-hero-loop.mp4",
+    "sha256": "98257214ce3b012074f46b8b3a0d3d36c669a01e10e02905d573aa122f45efd7",
+    "bytes": 3848653
+  },
+  {
+    "path": "dist/assets/jhg-introduction.mp4",
+    "sha256": "3969c0e3334c8526fb99743c24169f116587728b1f20f196b0589077a73baa04",
+    "bytes": 21174593
+  },
+  {
+    "path": "dist/assets/jhg-share-card-v1.png",
+    "sha256": "80ead2d6e1c7ce3d609d39e237f45582bff18bcb91dab48de2690b6db7798164",
+    "bytes": 1911350
+  },
+  {
+    "path": "dist/assets/jhg-title-continuous.mp4",
+    "sha256": "15b2f5c833e900ffa01d75629d5f8213d42df29ed6ded208168724cee602a416",
+    "bytes": 23052044
+  },
+  {
+    "path": "dist/assets/jhg-title-ten-seconds.mp4",
+    "sha256": "a8ae3626599b275cb3c05af122fa2a433f0358ea4ad7b19b2254439564f1791e",
+    "bytes": 2106842
+  },
+  {
+    "path": "dist/assets/logo-career.png",
+    "sha256": "eee75c78bb768143899db32026c59b5e30da0c61ff04acb7f2d6bdb445c9bd25",
+    "bytes": 570062
+  },
+  {
+    "path": "dist/assets/logo-orbit.png",
+    "sha256": "a88fdcbaa52f1c93d036cc6381dbb6b1198d01cc04e6d360dcf278685c649bb3",
+    "bytes": 1482677
+  },
+  {
+    "path": "dist/assets/logo-original.png",
+    "sha256": "294cf2028e818602a0e134f217bb07b40dc2d948170ec7727d2f70c69ce6116a",
+    "bytes": 2463328
+  },
+  {
+    "path": "dist/assets/media/3d-render-2024.mp4",
+    "sha256": "ab97640b63f848b3fb4d950e900ee2b592ba643b36d540b0c832f4b4c3a01d64",
+    "bytes": 7674103
+  },
+  {
+    "path": "dist/assets/media/3d-render-2024.webp",
+    "sha256": "a6de3b499cae7171c842eff0fc498416ab428aa6eed05488bc663198aaee91b2",
+    "bytes": 82024
+  },
+  {
+    "path": "dist/assets/media/campaign-11.webp",
+    "sha256": "69cfb84c0f8d18e10a949109c1adea2f8e6a095bd95845018de3698e091f4f00",
+    "bytes": 52562
+  },
+  {
+    "path": "dist/assets/media/campaign-25.webp",
+    "sha256": "8a2b1d955e2fa85f78307b51935cb0496381db98c17530306a1afb5225773047",
+    "bytes": 18098
+  },
+  {
+    "path": "dist/assets/media/campaign-34.webp",
+    "sha256": "cc8e9f6e1cac17e50c5360eba8a74443afd9b30ef86345ccd2f1cbe704808354",
+    "bytes": 36812
+  },
+  {
+    "path": "dist/assets/media/campaign-35.mp4",
+    "sha256": "cfb37cb57394fe2e15be70cd0135d390a027fd6916cf9917418dc8f65cbbb631",
+    "bytes": 11428396
+  },
+  {
+    "path": "dist/assets/media/campaign-35.webp",
+    "sha256": "417d85f2b51cd35c86cb7ae9b1b2b999d28457ecf09e756b46ef07027f02bcab",
+    "bytes": 70798
+  },
+  {
+    "path": "dist/assets/media/campaign-36.mp4",
+    "sha256": "5e9655b8e9136e78ef32e250a9a66e6e22a79424f7b97c6d7633de54857b05c1",
+    "bytes": 9003711
+  },
+  {
+    "path": "dist/assets/media/campaign-36.webp",
+    "sha256": "1e86c456abe73ac1d45022fa4a75751eb0b53a613be94c3077af2c805fc59949",
+    "bytes": 29658
+  },
+  {
+    "path": "dist/assets/media/campaign-37.mp4",
+    "sha256": "57e4230abfe1730b9aba3e03c64c1914da36b952c6d4706839c019d5eb7ec83c",
+    "bytes": 3603799
+  },
+  {
+    "path": "dist/assets/media/campaign-37.webp",
+    "sha256": "003a61a62ce176e68e8a7ad76a41485251e18b536780c49b122d7493fed7d157",
+    "bytes": 41822
+  },
+  {
+    "path": "dist/assets/media/campaign-38.mp4",
+    "sha256": "b08762635f99f26fc43a27630b700c54f0a1ccf73eeaf827db7fd7b48887a253",
+    "bytes": 5233912
+  },
+  {
+    "path": "dist/assets/media/campaign-38.webp",
+    "sha256": "707b7d03752af21122888eefbeed8efc324b8cc6cb2bdd5e55d1b1a73dd4b8e4",
+    "bytes": 55304
+  },
+  {
+    "path": "dist/assets/media/campaign-39.mp4",
+    "sha256": "62f3a95ca665b12d0c535a10b03fc82eadbd21beb913fda98f4a4e47c3c95e59",
+    "bytes": 11968556
+  },
+  {
+    "path": "dist/assets/media/campaign-39.webp",
+    "sha256": "95da03df28160f0292f71c7df953944b0a9497b3e545f1dfcbde04beb1b4450b",
+    "bytes": 37018
+  },
+  {
+    "path": "dist/assets/media/campaign-43.mp4",
+    "sha256": "bb850f13c901c695501a4b24891494498a942a44af4bbc268f496e5186c19efe",
+    "bytes": 10594371
+  },
+  {
+    "path": "dist/assets/media/campaign-43.webp",
+    "sha256": "74c38b113e4415d479aca65a4fa1dbc68e45380edd7c930da16ad8aeb1817c27",
+    "bytes": 17266
+  },
+  {
+    "path": "dist/assets/media/campaign-45.mp4",
+    "sha256": "e458acb84d142469278b426fcf3140408ade7fd327cd823adfad9e428e12638e",
+    "bytes": 7907618
+  },
+  {
+    "path": "dist/assets/media/campaign-45.webp",
+    "sha256": "38694e181cf7ce5ca65ae48f8d942d6cfb997c7d9ff338f15532234848f74587",
+    "bytes": 30518
+  },
+  {
+    "path": "dist/assets/media/campaign-8.mp4",
+    "sha256": "b9cad2996ffa9b7119d4b2ef3250aad89285b1ff9e431e8c5978d480683fc940",
+    "bytes": 13498864
+  },
+  {
+    "path": "dist/assets/media/campaign-8.webp",
+    "sha256": "188e6576f3b7fc22acf68f0e09ce6e8173e8f30d91c74f0af5848aace89e416c",
+    "bytes": 26108
+  },
+  {
+    "path": "dist/assets/media/content-creator-day.mp4",
+    "sha256": "eca5f59884e32e7c151158ff77843316a288d8f2c245edb4e0dfc034e4d6922b",
+    "bytes": 8637929
+  },
+  {
+    "path": "dist/assets/media/content-creator-day.webp",
+    "sha256": "d81d5040ea4d82693b628afacecb8a1418b9f14d14a0eabb7e0fccce440b9d94",
+    "bytes": 28342
+  },
+  {
+    "path": "dist/assets/media/creativeverse-fatima-burke.webp",
+    "sha256": "ad76641e36c208e3ceaa215d17edacc16a14a40e6c641b6cf30ec870af3eb789",
+    "bytes": 54650
+  },
+  {
+    "path": "dist/assets/media/creativeverse-larry-pickett.webp",
+    "sha256": "0878b4457cf081c386451010c046de30e706bebe06551a454560dd39a9613503",
+    "bytes": 65898
+  },
+  {
+    "path": "dist/assets/media/creativeverse-spoken-word.mp4",
+    "sha256": "ad2fe16e935ea791c8681399e39ae6336e88b53ed1e1b8225d913ff3c6de9108",
+    "bytes": 9871983
+  },
+  {
+    "path": "dist/assets/media/creativeverse-spoken-word.webp",
+    "sha256": "3bfee3194ce64ecc99291973ddd73e68fecacf27f6208d7d30aff4fd1daa9ca2",
+    "bytes": 55226
+  },
+  {
+    "path": "dist/assets/media/creativeverse-valonda-calloway.webp",
+    "sha256": "d2e656ef349635ea923dcecc887bb8f844e1ee1b30fd0943c735c198b6b56c6a",
+    "bytes": 67962
+  },
+  {
+    "path": "dist/assets/media/get-serious-networking.mp4",
+    "sha256": "de7836e451ad677b2fd02fe72ae1538b0c64f3a155b0704ddc7b774be36aafdb",
+    "bytes": 6194854
+  },
+  {
+    "path": "dist/assets/media/get-serious-networking.webp",
+    "sha256": "147e3a18fe8efc572e0249e4e65e82f4cbfd5e5d619102b91797b8a478a435e2",
+    "bytes": 30676
+  },
+  {
+    "path": "dist/assets/media/kimberly-brand-intro.mp4",
+    "sha256": "6baa6778401b7b9b4d6f1e9f9165325d6b14543f25eb0fc0e12f187fb7fabf33",
+    "bytes": 843885
+  },
+  {
+    "path": "dist/assets/media/kimberly-brand-intro.webp",
+    "sha256": "3429235129c0ccec39a0b857f2a058410e98b40e1fae1ecd19cfce30860ec49b",
+    "bytes": 10750
+  },
+  {
+    "path": "dist/assets/media/levelle-sneakerball.webp",
+    "sha256": "cac224f3abbbfac6735b3594ac515cc630b827e8d91725c38aa59b41c367dfa3",
+    "bytes": 11808
+  },
+  {
+    "path": "dist/assets/media/nccu-2026-intro.mp4",
+    "sha256": "6dc782cdc3ca155de706da674756f6981bf25b39a169619c6b0a1c9a2a1886cb",
+    "bytes": 8941133
+  },
+  {
+    "path": "dist/assets/media/nccu-2026-intro.webp",
+    "sha256": "0b143aba77bda9e0840b2a3a1483162c8e8956d22729456b47135814564ca108",
+    "bytes": 24554
+  },
+  {
+    "path": "dist/assets/media/nccu-jersey-reveal.mp4",
+    "sha256": "fd9804ea2c55f982ae7a2acd62d0ca98be3701396d86caf4aeae6f76228f2910",
+    "bytes": 7255277
+  },
+  {
+    "path": "dist/assets/media/nccu-jersey-reveal.webp",
+    "sha256": "d31aad60ff0a4845581077f9d33eacfde0da038bed818b723ec38a4fc5a79783",
+    "bytes": 20354
+  },
+  {
+    "path": "dist/assets/media/nccu-shoe-reveal.mp4",
+    "sha256": "83bc8cab5077e248cc4615b9b39b28325df1dbcd69df41f185e2b7097b40977b",
+    "bytes": 5156997
+  },
+  {
+    "path": "dist/assets/media/nccu-shoe-reveal.webp",
+    "sha256": "3a5f1db15c58f851431551a88ca21bf7207ca8cd205483d5f683bf65c0b61bce",
+    "bytes": 17522
+  },
+  {
+    "path": "dist/assets/media/real-time-spaces.mp4",
+    "sha256": "48cc315b00db35f06098f1546488360ec07f307af0a802eeea9ca21cb356380d",
+    "bytes": 8057265
+  },
+  {
+    "path": "dist/assets/media/real-time-spaces.webp",
+    "sha256": "e79521068ba51eb6e950486430bc37f8062c7cbd738f6d9384ccf9e519c8a580",
+    "bytes": 75714
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-bike-manual.webp",
+    "sha256": "aa727834bfdce8dc05347e645fe4cac11a5f67715c152d4f04bb3039c0b9ba7a",
+    "bytes": 69154
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-watch-manual.mp4",
+    "sha256": "9f5a2398fe7ec2f95653380e2176e0913d380b49944840f2d91d2a21a1579bf5",
+    "bytes": 10238242
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-watch-manual.webp",
+    "sha256": "2d0e24930ff30f83c94c95bede873733596ba1f6573e3517e22d744cec21ecca",
+    "bytes": 36984
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-watchway.webp",
+    "sha256": "3ce7283707f850269d3720f22a34b4cdd94c0c8feff0945dc71efce5c9799770",
+    "bytes": 32126
+  },
+  {
+    "path": "dist/assets/media/rocket-boy.mp4",
+    "sha256": "408848058cfb5d6fe4538545a3631f88c82961bc7ad48ebd688d051b700b5c38",
+    "bytes": 8722742
+  },
+  {
+    "path": "dist/assets/media/rocket-boy.webp",
+    "sha256": "32bb223a8e1f923806ccca6aff99c85ca066e307ea67622fccad0cb4a4d39270",
+    "bytes": 43394
+  },
+  {
+    "path": "dist/assets/media/roy-environment.webp",
+    "sha256": "15764aaea291fd20748ee7a8e8e0f6d45e2199c857cd88a1a420a99fdc67dbdd",
+    "bytes": 54830
+  },
+  {
+    "path": "dist/assets/media/velle-bernie-mac.mp4",
+    "sha256": "d7f142ecf59e41292033bc7d733be66303f3261310e930c7fdc8198c351a93e7",
+    "bytes": 12139990
+  },
+  {
+    "path": "dist/assets/media/velle-bernie-mac.webp",
+    "sha256": "c2124419ec14ffeb571650307b905ec7c48d27f96b7cb96d91c273050fdee5c5",
+    "bytes": 31014
+  },
+  {
+    "path": "dist/assets/media/velle-holly-1.webp",
+    "sha256": "46391c597f33d15017dfc0e3ab1cc5a8a4056f37bfa2394504cd7bcc84a33f08",
+    "bytes": 40912
+  },
+  {
+    "path": "dist/assets/media/velle-holly-2.webp",
+    "sha256": "6badd406aac1ef8b2935a1b42ca9545c7be9250c876223a842171e40f98260bf",
+    "bytes": 54850
+  },
+  {
+    "path": "dist/assets/media/creativeverse-fatima-burke.mp4",
+    "sha256": "29323b9efbd61a202f5bd902575a58145c1313b37959e5d15444796855cb4e36",
+    "bytes": 23221802,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/campaign-25.mp4",
+    "sha256": "bbf0e5835220accc9737351684c1d5ae6a3414253ee650cac959016de420f541",
+    "bytes": 23107186,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/velle-holly-2.mp4",
+    "sha256": "5776e3da95bc002d37d528da8774b3b75c48a7c80dc820094069e94b00b64c49",
+    "bytes": 22712288,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/creativeverse-valonda-calloway.mp4",
+    "sha256": "4f9a21a7581b77a2c62fda639173d5d40bc9cf79aa1ca1217bc80318cf104f05",
+    "bytes": 21493607,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/campaign-34.mp4",
+    "sha256": "6e875d99e77bf7103bf1f3d4e18e964537df2ccb8c3e56f8bb83bc7c507d14ea",
+    "bytes": 19722232,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/velle-holly-1.mp4",
+    "sha256": "b3fafc62c399f2810bd0e5563765708bf3d85cabbaaa9f4cfd740029d00a35ee",
+    "bytes": 18667553,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-watchway.mp4",
+    "sha256": "654d9546c98e81ea817c27d178143b60986a5ed3cf88202e336b12635e480b71",
+    "bytes": 18019607,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/creativeverse-larry-pickett.mp4",
+    "sha256": "203275f218b1b803b0ab9b2f68cc5d9665fb5777c6107bdcb9580d8fad3a712f",
+    "bytes": 17778131,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/roy-environment.mp4",
+    "sha256": "f0b863c99d14f5d1e874bcbbdbb16e8b24a762dc156cf55664d1780d37e3d8a5",
+    "bytes": 15989068,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/levelle-sneakerball.mp4",
+    "sha256": "6727a87d993d2ad49a2ffd05c0586abe9eedc1972720a7b32155149f03408cfb",
+    "bytes": 14967027,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/rocket-boy-bike-manual.mp4",
+    "sha256": "5ee2a5b960211c69806049213e351a3fa1085cccca6e2c36a4294d1bdc16f6b8",
+    "bytes": 14838990,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  },
+  {
+    "path": "dist/assets/media/campaign-11.mp4",
+    "sha256": "713bb205d75a4673469f165fda2f011d7b0aabe4c784aa64d18f3b23826dc68f",
+    "bytes": 13958806,
+    "origin": "https://jhg-productions-media.john-h-guess.chatgpt.site"
+  }
+]
