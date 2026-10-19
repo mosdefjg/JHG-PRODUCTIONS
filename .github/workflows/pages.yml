@@ -1,0 +1,35 @@
+name: Deploy JHG Productions
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Restore pinned video and large image assets
+        run: python3 fetch_hosted_assets.py
+      - name: Build and validate
+        env:
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+        run: |
+          python3 build_site.py
+          node --check dist/app.js
+          python3 validate_site.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

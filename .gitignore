@@ -1,0 +1,5 @@
+__pycache__/
+*.encoding.mp4
+*.download
+.sites-checkout/
+.sites-runtime/
